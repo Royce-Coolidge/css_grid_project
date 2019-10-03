@@ -1,0 +1,62 @@
+
+
+.home_header_image {
+	background-image: url("../assets/hero.jpeg");
+	background-size: cover;
+	padding-left: 2em; 
+	opacity: 0.9;
+
+h1 {
+	@extend %header-title;
+	color: white;
+
+}
+span {
+	color:red;
+}
+i {
+@extend %photographer;
+}
+p {
+	color: #676c70;
+	font-family: $font-stack;
+	padding-top: 10px;
+}
+}
+
+.header h1 {
+	@extend %header-title;
+}
+
+
+// MEDIA QUERIES
+
+@media only screen and (max-width: 650px)
+		{
+			.home_header_image {
+	background-image: url("../assets/hero648.jpg");
+	         display: flex;
+	         justify-content:flex-end;
+			
+			h1 {
+				font-size:2.5em;
+			}
+			p {
+				margin-bottom: 2em;
+			}
+		}
+
+		.home_gallery {
+			display:flex;
+			flex-direction: column;
+			margin: 0 auto;
+			img {
+				width:100%;
+				margin: 0;
+			}
+		}
+	}
+			
+
+			
+	

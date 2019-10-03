@@ -1,0 +1,78 @@
+
+.search-box {
+	width: 100%;
+	display: flex;
+	margin-top: 3em;
+	margin-bottom:2em;
+	}
+.search{
+	input {
+		width: 90%;
+	}
+}
+
+.submit {
+	width: 50%;
+		input {
+		padding: 3px;
+		background-color: #fe6c7f;
+		font-family: 'nunito';
+        font-weight: 200;
+	    color: white;
+		border:none;	
+	}
+}
+
+
+input {
+	width: 100%;
+	line-height: 2;
+    font-size: 20px;
+    border: 2px solid #dee2e5;
+
+}
+
+textarea {
+	width: 100%;
+	border: 2px solid #dee2e5;	
+}
+
+
+label {
+	font-family: 'nunito';
+	font-weight: 400;
+	color: #494949;
+}
+
+form {
+	width:100%;
+	display: inline-block;
+	div {
+		margin-bottom: 20px;
+	}
+	
+}
+
+.home_header_image {
+	.search {
+		display:none;
+		&::before {
+  
+  position: absolute; top:0px;
+  left: 50%;
+  right: 0%;
+        }
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

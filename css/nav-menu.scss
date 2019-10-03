@@ -1,0 +1,61 @@
+
+
+.navbar {
+
+
+	p {
+		// font-size: $logo-size;
+		// font-family: $font-stack;
+		@extend %logo;
+	}
+	nav {
+		padding-right: 0em; 
+	}
+	img {
+		min-width: 20px;
+		min-height: 20px;
+	}
+
+} 
+
+nav a {
+	@extend %nav-menu-links;
+	margin-right: 0px;
+	margin-left: 20px;
+
+}
+
+nav {
+a:hover {
+  color: orange;
+}
+}
+
+
+.small_nav_menu {
+	display:none;
+	@media only screen and (max-width: 650px) {
+    	position: absolute;
+    	top:0px;
+    	width: 90%;
+    	margin: auto;
+    	z-index: 1;
+    	display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		background-color: #202529;
+		a {
+			margin: 10px 5px;
+		}
+    }
+    
+    a {
+		text-align: center;
+		color: white;
+    }
+   
+  }   
+
+
+
+

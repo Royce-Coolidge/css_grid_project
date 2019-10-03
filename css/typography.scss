@@ -1,0 +1,149 @@
+
+@font-face  {
+font-family: 'poppins';
+font-weight: 200;
+ src: url("../assets/fonts/Poppins/Poppins-Thin.ttf");
+}
+
+@font-face  {
+font-family: 'poppins';
+font-weight: 300;
+ src: url("../assets/fonts/Poppins/Poppins-ExtraLight.ttf");
+}
+
+@font-face  {
+font-family: 'poppins';
+font-weight: lighter;
+ src: url("../assets/fonts/Poppins/Poppins-Light.ttf");
+}
+
+@font-face  {
+font-family: 'poppins';
+font-weight: normal;
+ src: url("../assets/fonts/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face  {
+font-family: 'poppins';
+font-weight: 500;
+ src: url("../assets/fonts/Poppins/Poppins-SemiBold.ttf");
+}
+
+@font-face  {
+font-family: 'poppins';
+font-weight: bold;
+ src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face  {
+font-family: 'nunito';
+font-weight: lighter;
+ src: url("../assets/fonts/Nunito/Nunito-Light.ttf");
+}
+
+@font-face  {
+font-family: 'nunito';
+font-weight: 200;
+ src: url("../assets/fonts/Nunito/Nunito-LightItalic.ttf");
+}
+
+@font-face  {
+font-family: 'nunito';
+font-weight: 400;
+ src: url("../assets/fonts/Nunito/Nunito-Regular.ttf");
+}
+
+@font-face  {
+font-family: 'nunito';
+font-weight: bold;
+ src: url("../assets/fonts/Nunito/Nunito-Bold.ttf");
+}
+
+
+$font-stack: 'poppins';
+$logo-size: 3em;
+
+
+$nav-menu-title-size: 1em;
+
+%nav-menu-links {
+
+	font-size: 1em;
+	font-family: 'nunito';
+	font-weight: 400;
+	text-decoration: none;
+	color: #4a4947;
+
+}
+
+$poppins: 'poppins', arial, sans-serif;
+
+%logo {
+	font-family: $poppins;
+	font-weight: 450;
+	font-size: 2em;
+	margin-left: 0px;
+}
+
+%header-title {
+	font-family: 'poppins';
+	font-weight: 500;
+	font-size:3.5em;
+	color: black;
+
+} 
+
+%photographer {
+	font-family: 'DM Serif Display', serif;
+	font-weight: 500;
+	font-size:1.2em;
+	color: #37cade;
+
+}
+
+// BLOG PAGE 
+
+%tags {
+	background-color:#41cadd;
+	font-family: 'poppins';
+	font-weight: lighter;
+	color: white;
+}
+
+%blog-paras {
+	font-family: 'poppins';
+	font-weight: 300;
+	color: #4b4b4b;
+	letter-spacing:0.5px;
+	text-decoration: none;
+
+}
+
+%blog-time {
+	font-family: 'poppins';
+	font-weight: 200;
+	color:#afb2b9
+}
+
+%blog-header {
+    font-family: 'poppins';
+	font-weight: bold;
+	letter-spacing:1px;
+
+}
+
+%blog-link {
+	font-family: 'poppins';
+	font-weight: 400;
+	color:#afb2b9;
+	text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+

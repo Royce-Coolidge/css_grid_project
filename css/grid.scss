@@ -1,0 +1,185 @@
+
+/*ALL PAGES*/
+
+
+.wrapper {
+	width: 90vw;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto 40vh 1fr 1fr 10vh;
+	grid-template-areas: 
+	"hair hair"
+	"forehead forehead"
+	"feature feature"
+	"feature feature"
+	"foots foots"
+	;
+	grid-gap:10px;
+	
+}
+
+
+.navbar {
+	grid-area: hair;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav {
+	display: flex;
+
+}
+
+.header {
+	grid-area: forehead;
+	background-color: #fff0e9;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.main {
+	grid-area: feature;
+	width: 80vw;
+	margin:auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	justify-items: center;
+	align-items: center;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+
+footer {
+	grid-area: foots;
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+
+/* HOME PAGE*/
+
+.home-header {
+	grid-template-rows: 10vh 80vh 1fr 1fr 10vh;
+}
+
+.home_header_image {
+	align-items: flex-start;
+	
+}
+
+.home_gallery {
+	grid-template-rows: repeat(6, 1fr);
+	grid-template-areas: 
+	"portrait woods"
+	"portrait portraitBW"
+	"cup portraitBW"
+	"cup gorilla"
+	"guitar graf"
+	"guitar tape"
+	;
+}
+
+.portrait {
+	grid-area: portrait;
+}
+.portraitBW {
+	grid-area: portraitBW;
+}
+.woods {
+	grid-area: woods;
+}
+.cup {
+	grid-area: cup;
+}
+.gorilla {
+	grid-area: gorilla;
+}
+.guitar {
+	grid-area: guitar;
+}
+.graf {
+	grid-area: graf;
+}
+.tape {
+	grid-area: tape;
+}
+
+
+/* BLOG PAGE */
+
+.flex_child {
+	display: flex;
+	/*justify-content: space-around;*/
+	flex-direction: column;
+	align-items: center;
+}
+
+.article-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 2em;
+
+}
+
+/* ARTICLE PAGE AND CONTACT PAGE*/
+
+.article_one {
+	grid-template-rows:none;
+	align-items: start;
+	img {
+		grid-column-start:1;
+		grid-column-end:3;
+	} 
+	.article-content {
+		width: 95%;
+		grid-column-start:1;
+		grid-column-end:3;
+		align-items: start;
+		p {
+		text-align: left;
+		width: 100%;
+	   }
+	}
+}
+
+.contact_main {
+	grid-template-rows: none;
+	grid-template-columns: none;
+}
+
+.aside {
+    grid-template-columns: 3fr 1fr;
+	grid-template-areas: 
+	"hair hair"
+	"forehead forehead"
+	"feature related"
+	"feature related"
+	"foots foots"
+	;
+}
+
+aside {
+	grid-area:related;
+
+	.article-content {
+    align-items: start;
+
+    p {
+    	text-align: left;
+     }
+    }
+
+    }
+	
+
+
+
